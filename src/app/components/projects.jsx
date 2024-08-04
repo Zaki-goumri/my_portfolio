@@ -1,6 +1,6 @@
 import React from "react";
 import {projects} from "../constantes";
-
+import Image from "next/image";
 const Projects = () => {
     return (
         <main>
@@ -13,7 +13,7 @@ const Projects = () => {
                 {projects.map((project,index)=>{
                      return(
                         <li key={index} className='flex '>
-                            <img src={project.path} alt={project.company} width={126} height={70.93} className="rounded-[0.524vw]"/>
+                            <Image src={project.path} alt={project.company} width={126} height={70.93} className="rounded-[0.524vw]"/>
                             <div className="ml-[0.972vw]">
                             <p className='font-extrabold text-lg  '>{project.company}</p>
                             <p className='font-medium text-xs w-[80%] text-zinc-500'>{project.description}</p>

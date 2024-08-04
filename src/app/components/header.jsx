@@ -1,12 +1,12 @@
 
 import Link from "next/link";
-
+import Image from "next/image";
 
 const Header = () => {
   return (
     <main className=" flex mt-[3.418vh] w-full justify-between">
         <aside className="flex ml-[8.403vw] mt-[]">
-        <img src="/assets/logo.svg" alt="Logo of zaki" width={23.73} height={26.44} />
+        <Image src="/assets/logo.svg" alt="Logo of zaki" width={23.73} height={26.44} />
         <div className="flex flex-col ml-[1.137vw]">
         <span className="font-bold text-[22.21px]">zakaria</span>
         <span className="font-normal text-[9.18px] tracking-widest ml-[2.353vw]" >GOUMRI</span>
