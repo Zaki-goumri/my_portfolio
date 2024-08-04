@@ -12,12 +12,12 @@ const ContactMe = () => {
          </div>
          <div className="flex items-center flex-col gap-8">
          <p className="w-[50%] text-center">As a passionate software engineer, I thrive on the intricate dance between logic and creativity.for business and services you'll find my contacts</p>
-        <ul className="flex gap-[2.699vw] ">
+        <ul className="flex gap-[3vw] ">
          {contacts.map((contact,index)=>{
             return(
               <li key={index}>
               <Link href={contact.link} target="_blank" rel={contact.rel} >
-                <Image src={contact.path}  alt="contact" />
+                <Image src={contact.path}  alt="contact" height={20} width={20} />
                 </Link>
                 </li>
             )
