@@ -16,7 +16,7 @@ const Bio = () => {
     return (
         <main className="flex justify-center mt-[8.403vw]">
          <div className="flex flex-col items-center">
-         <Image src="/assets/me.svg" alt="Hero image"  className="border rounded-full border-transparent  w-[150px] md:w-[231px] " height={231} width={231} />         
+         <Image src="/assets/zaki.jpg" alt="Hero image"  className="border rounded-full border-transparent  w-[150px] md:w-[231px] " height={231} width={231} />         
          <h1 className="text-[4.404vw] font-extrabold">zakaria Goumri!</h1>
          <h2 className="md:text-[1.813vw]  text-zinc-500 font-semibold mb-[1.458vw] ">  I do code & <span className="bg-gradient-to-r from-violet-400 to-orange-400  text-transparent bg-clip-text ">chill</span>🍿</h2>
          <p className="text-neutral-200 sm:w-[37vw] text-center mb-[1.458vw]">Passionate Software Engineer with a focus on React development,
