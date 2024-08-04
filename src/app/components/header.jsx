@@ -13,8 +13,8 @@ const Header = () => {
         </div>
         </aside>
         <aside className="flex gap-2 mr-[10vw]">
-        <Link href='#aboutme' className="inline-block  font-medium bg-transparent border border-white md:px-[15px] lg:pt-[9px] md:pb-[5px] rounded-[8.8px]  px-[9px] pt-[6px] ">About me</Link>
-        <Link href='#contact'  className="inline-block bg-white border border-white text-black md:px-[15px] md:pt-[9px] md:pb-[5px] rounded-[8.8px] px-[9px] pt-[6px] " >Contact</Link>
+        <Link href="#aboutme" className="inline-block  font-medium bg-transparent border border-white md:px-[15px] lg:pt-[9px] md:pb-[5px] rounded-[8.8px]  px-[9px] pt-[6px] ">About me</Link>
+        <Link href="#contact"  className="inline-block bg-white border border-white text-black md:px-[15px] md:pt-[9px] md:pb-[5px] rounded-[8.8px] px-[9px] pt-[6px] " >Contact</Link>
         </aside>  
     </main>
   );
