@@ -6,6 +6,7 @@ import Experience from "./components/experiences";
 import Projects from "./components/projects";
 import ContactMe from "./components/contactMe";
 import Footer from "./components/footer";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 
