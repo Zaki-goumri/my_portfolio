@@ -1,12 +1,12 @@
 "use client"
 import React from "react";
 import Image from "next/image";
-import { Autour_One } from "next/font/google";
+
 const Bio = () => {
     
     const handleDownload = () => {
         const link = document.createElement("a");
-        link.href = "/Zakaria Goumri.pdf"; 
+        link.href = "/ZakariaGoumri.pdf"; 
         link.download = "/zakariaGoumri.pdf"; 
         document.body.appendChild(link);
         link.click();
