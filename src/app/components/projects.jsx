@@ -12,7 +12,7 @@ const Projects = () => {
             <ul className="grid  lg:grid-cols-2 gap-10 ml-[18.306vw] sm:grid-cols-1 ">
                 {projects.map((project,index)=>{
                      return(
-                        <li key={index} className="flex flex-wrap">
+                        <li key={index} className="flex sm:flex-nowrap flex-wrap">
                             <Image src={project.path} alt={project.company} width={126} height={70.93} className="rounded-[0.524vw]"/>
                             <div className="ml-[0.972vw]">
                             <p className="font-extrabold text-lg  ">{project.company}</p>
